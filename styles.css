@@ -1,0 +1,157 @@
+
+.judul {
+    margin-left: 15px;
+    margin-top: px;
+}
+.navbar {
+    background-color: #242424;
+}
+.navbar-brand {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20px;
+}
+.navbar-nav {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 550px;
+} 
+.banner {
+    min-height: 700px;
+    position: relative;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+p {
+    color: #ffffff;
+}
+.logo {
+    border-radius: 50%;
+}
+.banner::before {
+    content: "";
+    background-image: url("img/logogua.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3;
+}
+.profile {
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img-profile {
+    margin-top: 50px;
+    border-radius: 50%;
+}
+.banner-content {
+    margin-top: 135px;
+    position: relative;
+    text-align: center;
+}
+.profile-content {
+    position: relative;
+    text-align: center;
+}
+.biodata {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 50px;
+}
+.btn-banner-blue:hover {
+    background: #242424;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+  }
+.btn-banner-blue {
+    font-size: 20px;
+    border-radius: 30px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.btn-banner-blue {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo-brand {
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.logo {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+footer {
+    background-color: #242424;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.welcome-brand {
+    margin-top: 20px;
+    font-size: 45px;
+    text-shadow: #fff;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.welcome {
+    text-align: center;
+    margin-top: 40;
+    font-family: 'times-new-roman';
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    border-bottom: 2px solid #777;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.social-media li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-bottom {
+    background-color: #242424;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
